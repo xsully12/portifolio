@@ -110,11 +110,11 @@ body {
     .imagem-perfil {
         width: 50%;
     }
-    .conteudo {
+    .apresentacao {
         flex-direction: column-reverse;
         padding: 7.2% 5%;
     }
-    .curriculo {
+    .apresentacao__conteudo {
         width: auto;
     }
 }
