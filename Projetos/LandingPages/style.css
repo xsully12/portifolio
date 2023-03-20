@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;800&family=Lato:wght@100;300;400;700&family=Spectral:ital,wght@1,500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+:root
+{
+    --branco: rgb(201, 198, 198);
+    --vermelho: rgb(235, 42, 42);
+    --preto: rgb(26, 26, 26);
+    --amarelo: #e2c629;
+    --cinza: #6E7076;
+}
+
+body{
+    background-color: var(--preto);
+    font-family: 'Inter', sans-serif;
+    height: 100vh;
+  
+}
+
+.cabecalho
+{
+    margin: 2% 6%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cabecalho__titulo
+{
+    color: var(--branco);
+    font-weight: 800;
+    font-size: 30px;
+    font-family: 'Lato', sans-serif;
+    
+}
+.opcoes
+{
+    text-decoration: none;
+    color: var(--branco);
+    padding: 0.5em;
+    font-size: 25px;
+    background-color: var(--cinza);
+    border-radius: 13px;
+    transition: 0.5s;
+}
+.opcoes:hover{
+    background-color: var(--amarelo);
+    color: var(--preto);
+    transform:scale(1.1)
+}
+.botoes{
+    display: flex;
+    gap: 50px; 
+}
+
+.conteudo{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    border-top: 0.3px solid var(--cinza);
+    margin-bottom: 10px;
+    flex-direction: column;
+
+}
+.conteudo__titulo{
+    margin-top: 1em;
+    font-size: 50px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    color: var(--amarelo);
+    margin-bottom: 3em;
+}
+.titulo__destaque
+{
+    color: var(--vermelho);
+}
+.pages{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.pages__lista{
+    display: flex;
+    gap: 4%;
+}
+.pages__imagem{
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.pages__titulo{
+    text-decoration: none;
+    color: transparent;
+    font-family: 'Spectral', serif;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    transition: 0.5s;
+    
+}
+.pages__titulo:hover{
+   
+    transform: translateY(60px);
+    color: var(--amarelo);
+    
+}
+ 
