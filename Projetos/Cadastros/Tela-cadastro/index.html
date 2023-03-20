@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cadastro</title>
+</head>
+<body>
+    <main class="cadastro">
+
+            <img src="img/Imagem.svg" alt="Imagem ao lado do cadastro, ilustrativa" class="cadastro__imagem">
+
+        <div class="cadastros__formulario">
+                <div class="cabecalho">
+                    <h1 class="cabecalho__titulo">Cadastre-se</h1>
+                    <div class="cabecalho__conta">
+                        <p>Ja tenho uma conta</p>
+                        <a href="#" class="botao-entrar">Entrar</a>
+                    </div>
+                </div>
+            <form class="formulario">
+                <div class="formulário__item">
+                    <label for="nome"  class="formulario__label">Primeiro Nome</label><br>
+                    <input type="text" name="cadastro" id="nome" placeholder="Digite seu primeiro nome" class="formulario__input" required>
+                </div>
+                <div>
+                    <label for="sobrenome" class="formulario__label">Sobrenome</label><br>
+                    <input type="text" id="sobrenome" placeholder="Digite seu sobrenome" class="formulario__input" required >
+                </div>
+                <div class="formulário__item">
+                    <label for="email" class="formulario__label">E-mail</label><br>
+                    <input type="email" name="cadastro" id="email" placeholder="Digite seu e-mail" class="formulario__input" required>
+                </div>
+                <div class="formulário__item">
+                    <label for="celular" class="formulario__label">Celular</label><br>
+                    <input type="tel" name="cadastro" id="celular" placeholder="(xx) xxxxx-xxxx" class="formulario__input">
+                </div>
+                <div class="formulário__item">
+                    <label for="senha" class="formulario__label">Senha</label><br>
+                    <input type="password" name="cadastro" id="senha"placeholder="Digite senha senha" class="formulario__input">
+                </div>
+                <div class="formulário__item">
+                    <label for="senha2" class="formulario__label">Confirme sua senha</label><br>
+                    <input type="password" name="cadastro" id="senha2"placeholder="Digite senha senha novamente" class="formulario__input"><br>
+                </div>
+            </form>
+        <div class="formulario__genero">
+            <br><label for=""> <strong>Gênero:</strong></label>
+            <input type="radio" name="genero" id="Feminino">
+            <label for="Feminino">Feminino</label>
+            <input type="radio" name="genero" id="Masculino">
+            <label for="Masculino">Masculino</label>
+            <input type="radio" name="genero" id="Outros">
+            <label for="Outros">Outros</label>
+            <input type="radio" name="genero" id="Prefiro-não-dizer">
+            <label for="Prefiro-não-dizer">Prefiro não dizer</label>
+        </div>
+            
+            <button type="submit" class="botao"><strong class="botao__texto">Continuar</strong></button>
+        </div>
+        
+    </main>
+    <footer></footer>
+</body>
+</html>

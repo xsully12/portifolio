@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0%;
+}
+:root{
+    --azul-fundo: #87CEFA;
+    --fundo-imagem: rgb(242, 246, 252);
+    --fundo-cadastro: rgb(7, 95, 226);
+    --fundo-botao: rgb(230, 199, 62);
+}
+
+body{
+    background-color:var(--azul-fundo) ;
+    margin: 8% 10%;
+    color:var(--fundo-imagem);
+    font-family: 'Inter', sans-serif;
+   
+    
+}
+
+.cadastro{
+    display: flex;
+}
+.cadastro__imagem{
+    background-color: var(--fundo-imagem);
+    border-radius: 16px 0px 0px 16px;
+    
+}
+.cadastros__formulario{
+    background-color: var(--fundo-cadastro);
+    padding-left: 1em;
+    border-radius: 0px 16px 16px 0px;
+    align-items: center;
+}
+.cabecalho{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   height: 5em;
+   gap: 20em;
+   padding-right: 2em;
+   padding-bottom: 2%;
+   white-space: nowrap;
+   font-weight: 700;
+
+}
+.cabecalho__conta{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2em;
+    white-space: nowrap;
+    font-weight: 400;
+}
+.botao-entrar{
+    background-color: var(--fundo-imagem);
+    padding: 0.5em 1.2em;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 700;
+    color: var(--fundo-cadastro);
+}
+.botao-entrar:hover{
+    background-color: var(--fundo-botao);
+    color: var(--fundo-imagem);
+}
+.formulario{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    row-gap: 20px;
+}
+.formulario__label{
+    font-size: 15px;
+    font-weight: 700;
+}
+.formulario__input{
+    padding: 0.5em 1.6rem;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 1px 1px 6px #0000001c;
+}
+.formulario__genero{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding-top: 2em;
+}
+.botao{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 4em;
+    width: 90%;
+    padding: 1em;
+    border-radius: 16px;
+    
+}
+.botao__texto{
+    font-size: 20px;
+}
